@@ -22,8 +22,8 @@ console.log(range(4, 14));
 
 function sum(array) {
   let total = 0;
-  for (let value of array) {
-    total += value;
+  for (let i = 0; i <= array.length - 1; i++ ) {
+      total = total + array[i];
   }
   return total;
 }
@@ -43,3 +43,13 @@ console.log(sum(range(4, 14)));
 // let arrayValue = [1, 2, 3, 4, 5];
 // reverseArrayInPlace(arrayValue);
 // console.log(arrayValue); // outputs [5, 4, 3, 2, 1]
+
+function reverseArray(array) {
+
+}
+
+
+
+function reverseArrayInPlace(array){
+
+}
